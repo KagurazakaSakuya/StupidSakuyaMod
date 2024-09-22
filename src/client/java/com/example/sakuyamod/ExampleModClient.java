@@ -1,4 +1,4 @@
-package com.example;
+package com.example.sakuyamod;
 
 import net.fabricmc.api.ClientModInitializer;
 

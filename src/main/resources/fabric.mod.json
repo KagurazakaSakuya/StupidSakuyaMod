@@ -1,33 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "sakuyamod",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "愚蠢的sakuya",
+	"description": "everyone is stupid",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://sakuya.moe/",
+		"sources": "https://github.com/KagurazakaSakuya/TestMod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/sakuyamod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.example.sakuyamod.ExampleMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.example.sakuyamod.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
+		"sakuyamod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.2",
